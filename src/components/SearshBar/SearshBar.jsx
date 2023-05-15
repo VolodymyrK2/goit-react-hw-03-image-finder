@@ -45,6 +45,8 @@ class SearshBar extends Component {
   
 }
 
-SearshBar.propTypes = {}
+SearshBar.propTypes = {
+  onSubmit: PropTypes.func
+}
 
 export default SearshBar
